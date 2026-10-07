@@ -1,4 +1,8 @@
 AWSTemplateFormatVersion: '2010-09-09'
+
 Resources:
-  MyS3Bucket:
+  MyS3Bucket1:
+    Type: AWS::S3::Bucket
+
+  MyS3Bucket2:
     Type: AWS::S3::Bucket
